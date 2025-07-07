@@ -1,0 +1,36 @@
+body{
+  background-color: orangered
+}
+.topNav{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-bottom: 2px solid orange;
+}
+.siteNameTop{
+  font-family: sans-serif;
+  color: white;
+}
+input type="text"{
+  border-radius: 100px;
+}
+h4{
+  font-family: sans-serif;
+  color: white;
+}
+.carousel{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.carousel img{
+  height: 100px;
+  width: 100px;
+}
+footer{
+  text-align: center;
+  color: white;
+  padding: 50px 0 0 0;
+}
